@@ -1,0 +1,70 @@
+{
+  "linear_regression": {
+    "full_oof_r2": 0.8559753019893898,
+    "public_mean": 0.8561109850536878,
+    "public_sd": 0.012674773370986572,
+    "public_p05": 0.8346675050854143,
+    "public_p95": 0.8769253017254384,
+    "private_sd": 0.01647799996003541,
+    "sd_of_public_minus_private": 0.021952175664159166,
+    "p_public_ge_top": 0.0
+  },
+  "decision_tree": {
+    "full_oof_r2": 0.9076925532879524,
+    "public_mean": 0.9077429455196092,
+    "public_sd": 0.00977137052838677,
+    "public_p05": 0.8913064071161025,
+    "public_p95": 0.9232434934543389,
+    "private_sd": 0.012537221105827315,
+    "sd_of_public_minus_private": 0.016645164421361786,
+    "p_public_ge_top": 0.0
+  },
+  "random_forest": {
+    "full_oof_r2": 0.9274471286673575,
+    "public_mean": 0.9275271181503199,
+    "public_sd": 0.009196824746847264,
+    "public_p05": 0.9118817322788637,
+    "public_p95": 0.9419787554550121,
+    "private_sd": 0.01179019084404076,
+    "sd_of_public_minus_private": 0.01564586844345538,
+    "p_public_ge_top": 0.0
+  },
+  "xgboost": {
+    "full_oof_r2": 0.9287242765052753,
+    "public_mean": 0.9288075049393174,
+    "public_sd": 0.009023318281885495,
+    "public_p05": 0.913402646773772,
+    "public_p95": 0.9430638213520048,
+    "private_sd": 0.011630141700164357,
+    "sd_of_public_minus_private": 0.01540505094636966,
+    "p_public_ge_top": 0.0
+  },
+  "catboost": {
+    "full_oof_r2": 0.9281683858055791,
+    "public_mean": 0.928204299079912,
+    "public_sd": 0.008557188145456468,
+    "public_p05": 0.9136935214660199,
+    "public_p95": 0.9418163124429103,
+    "private_sd": 0.010844842645321585,
+    "sd_of_public_minus_private": 0.014482706319809881,
+    "p_public_ge_top": 0.0
+  },
+  "average_ensemble": {
+    "full_oof_r2": 0.9312325774857815,
+    "public_mean": 0.9313041933496732,
+    "public_sd": 0.00864246477267263,
+    "public_p05": 0.9166857835303744,
+    "public_p95": 0.9449692316756837,
+    "private_sd": 0.011080352754735847,
+    "sd_of_public_minus_private": 0.014694802238530568,
+    "p_public_ge_top": 0.0
+  },
+  "ranking": {
+    "a": "average_ensemble",
+    "b": "xgboost",
+    "p_a_beats_b_public": 0.9188,
+    "p_a_beats_b_private": 0.8642,
+    "p_rank_flips_public_to_private": 0.2014,
+    "sd_public_diff": 0.0018119728766584498
+  }
+}

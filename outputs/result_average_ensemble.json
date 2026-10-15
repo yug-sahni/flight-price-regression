@@ -1,0 +1,9 @@
+{
+  "model": "average_ensemble",
+  "members": [
+    "xgboost",
+    "random_forest",
+    "catboost"
+  ],
+  "oof_r2_full_train": 0.9312325774857815
+}

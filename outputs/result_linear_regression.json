@@ -1,0 +1,16 @@
+{
+  "model": "linear_regression",
+  "best_params": {
+    "interact": false,
+    "log_target": true
+  },
+  "cv_r2_mean": 0.8562467679580846,
+  "cv_r2_std": 0.010190956924024358,
+  "n_trials": 4,
+  "holdout": {
+    "r2": 0.8621040846103805,
+    "rmse": 13940.859535747215,
+    "mae": 5563.235693879447
+  },
+  "oof_r2_full_train": 0.8559753019893898
+}

@@ -1,0 +1,21 @@
+{
+  "model": "random_forest",
+  "best_params": {
+    "bootstrap": true,
+    "log_target": true,
+    "max_depth": 20,
+    "max_features": 0.7,
+    "min_samples_leaf": 1,
+    "n_estimators": 200,
+    "te_smooth": "auto"
+  },
+  "cv_r2_mean": 0.9268842678984835,
+  "cv_r2_std": 0.008058214477296089,
+  "n_trials": 24,
+  "holdout": {
+    "r2": 0.933411391346524,
+    "rmse": 9687.546956606975,
+    "mae": 3077.142632924037
+  },
+  "oof_r2_full_train": 0.9274471286673575
+}

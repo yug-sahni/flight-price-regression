@@ -1,0 +1,17 @@
+{
+  "model": "lasso_regression",
+  "best_params": {
+    "alpha": 9.962513222055122e-06,
+    "interact": false,
+    "log_target": true
+  },
+  "cv_r2_mean": 0.8562023379520554,
+  "cv_r2_std": 0.010241487972407181,
+  "n_trials": 20,
+  "holdout": {
+    "r2": 0.862235041451624,
+    "rmse": 13934.238293285676,
+    "mae": 5558.693903420642
+  },
+  "oof_r2_full_train": 0.8558789882419537
+}

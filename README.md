@@ -19,18 +19,3 @@ Random Forest + XGBoost + CatBoost (and a variant that copies the price of exact
 `notebooks/team_notebook_poly_ridge_hgb.ipynb` is a second approach (polynomial Ridge + HistGradientBoosting).
 Bayes classifier, Naive Bayes and Logistic Regression are classifiers and do not apply to a continuous target.
 
-## Reproduce
-```bash
-pip install -r requirements.txt
-# download train.csv, test.csv, sample_submission.csv from the Kaggle competition into data/
-./run_all.sh            # EDA, tuning of every model, submissions, leaderboard-noise study
-python -m src.summary   # consolidated results table
-```
-Every source of randomness uses `SEED = 42` (`src/config.py`).
-
-## Layout
-- `src/features.py` imputation + feature engineering; `src/models.py` models and search spaces
-- `src/train.py` tuning (5-fold CV on 80% of train), holdout check, OOF predictions, submission
-- `src/eda.py`, `src/ensemble.py`, `src/twin_override.py`, `src/luck.py` (public-vs-private noise), `src/summary.py`
-- `outputs/` figures, `tuning_<model>.csv` (every trial), `result_<model>.json`, `submissions/`
-- `notebooks/` team notebook, `docs/` report PDF

@@ -1,6 +1,0 @@
-{
-  "base": "average_ensemble",
-  "oof_r2_before": 0.9312325774857815,
-  "oof_r2_after": 0.9329748231697768,
-  "test_rows_overridden": 307
-}

@@ -1,7 +1,5 @@
 # Domestic Flight Price Prediction (regression) - ML course project
 
-Kaggle competition: Domestic Flight Price Prediction Challenge. Metric: R^2 on `price`.
-Report: `docs/Flight_Price_Regression_Report.pdf`.
 
 ## Public leaderboard scores
 | Submission file (`outputs/submissions/`) | Public R^2 |
